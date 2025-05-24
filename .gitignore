@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.pdm.toml
+*.pdm.lock
+
+# Env
+.env
+venv/
+ENV/
+env/
+.venv/
+*.env
+
+# Django
+*.log
+*.pot
+*.pyc
+db.sqlite3
+media/
+staticfiles/
+local_settings.py
+
+# VSCode
+.vscode/
+
+# macOS
+.DS_Store
+
+# Pytest
+.cache/
+.pytest_cache/
+
+# Migrations (اختياري إذا كنت ما باغيش ترفعها)
+**/migrations/*.py
+**/migrations/__pycache__/
+
+# MyPy / Coverage / Other tools
+.mypy_cache/
+coverage.xml
+htmlcov/
